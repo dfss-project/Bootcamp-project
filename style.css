@@ -1,0 +1,36 @@
+body {
+    background-image: url("city.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+   }
+.header {
+    color: black;
+    text-shadow:2px 2px #9c7e7e;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.section2 {
+    position: absolute;
+    top: 600px;
+    left: 2px;
+}
+.footer{
+    background-color: #b46538;
+    color: black;
+    position: absolute;
+    padding: 1px 1px;
+    width: 100%;
+    top: 1300px;
+    left: 0px;
+
+}
+.houses{
+    size: 200px 200px;
+    width: 20%;
+    border-image-width: 2px solid red;
+    margin: 2%;
+    float: left;
+
+}
