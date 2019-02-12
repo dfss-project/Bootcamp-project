@@ -1,0 +1,44 @@
+input[type=search]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ffcdab;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color:#fff4e3; 
+    border-width: 3px;
+ 
+}
+input:hover[type=search]{
+    background-color: #ffcdab;
+    color: antiquewhite;
+
+
+}
+.search{
+
+    width: 15%;
+    background-color: #ee5d38;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;  
+    border-radius: 8px;
+}
+.search:hover {
+background-color: rgb(255, 166, 0);
+color: antiquewhite;
+
+}
+input::-webkit-calendar-picker-indicator[type=search] {
+    opacity: 100;
+ }
+ .Search2{
+margin: 0 auto;
+text-align: center;
+width: 100%;
+position: absolute;
+padding-top: 15%;
+
+ }
