@@ -1,5 +1,14 @@
 
 <!DOCTYPE html>
+<head>
+    <style>
+        input::-webkit-inner-spin-button,
+        input::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+        }
+    
+    </style>
+</head>
 <body>
     <form action="dbhuistoevoegen.php" method="POST">
         <input name="steden" placeholder="Zoek op plaats">
